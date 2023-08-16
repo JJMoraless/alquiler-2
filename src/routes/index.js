@@ -1,6 +1,7 @@
 import { Router } from "express";
 import { readdirSync } from "fs";
 import { _dirname } from "../utils/functions.js";
+
 const PATH_ROUTERS = _dirname(import.meta.url);
 const router = Router();
 
